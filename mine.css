@@ -123,3 +123,29 @@ header {
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Навигация                                        */
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.tabcontent {
+  display: none;
+}
+.tabcontent.active {
+  display: block;
+}
+
+.tablink.active {
+  background-color: #2d2d2d;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
