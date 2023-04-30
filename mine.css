@@ -116,13 +116,6 @@ body {
 	/*user-select: none;  Не даёт взаимодействовать с текстом */
 }
 
-
-header {
-	display: flex;
-	justify-content: center; 
-	position: relative;
-}
-
 .header span {
   font-family: 'Caveat';
   font-style: normal;
