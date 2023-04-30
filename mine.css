@@ -112,6 +112,8 @@
 
 .line {
   border: 2px solid #F5A925;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .container {
