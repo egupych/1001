@@ -190,7 +190,9 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10vw;
+  gap: 4vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 
 .grid-item {
