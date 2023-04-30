@@ -123,6 +123,17 @@ header {
 	position: relative;
 }
 
+.header span {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 4vw;
+  letter-spacing: -0.1vw;
+  color: #F5A925;
+  transform: rotate(-2.61deg);
+}
+
 .header {
   font-family: 'Montserrat';
   font-style: normal;
