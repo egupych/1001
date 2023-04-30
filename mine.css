@@ -131,6 +131,7 @@ header {
   justify-content: center;
   background: #EBEBEB;
   gap: 0.1vw;
+  padding: 0.2vw 0.25vw;
 }
 
 .tabcontent {
