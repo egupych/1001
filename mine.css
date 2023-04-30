@@ -111,6 +111,10 @@ color: red;
   color: #212123;
 }
 
+.wallpaper {
+  width: 100%;
+}
+
 .grand_logo {
   position: absolute;
   width: 60%;
