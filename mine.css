@@ -112,6 +112,9 @@
 
 .container {
   background: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body {
@@ -125,7 +128,6 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 3vw;
-  line-height: 4vw;
   letter-spacing: -0.1vw;
   color: #F5A925;
   transform: rotate(-2.61deg);
@@ -204,5 +206,5 @@ body {
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  border-radius: 0.5vw;
+  border-radius: 3.5vw;
 }
