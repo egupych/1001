@@ -180,7 +180,7 @@ body {
   background: #EBEBEB;
   gap: 0.2vw;
   padding: 0.2vw 0.25vw;
-  margin-bottom: 5.8vw;
+  margin-bottom: 2vw;
   width: fit-content;
   border-radius: 0.9vw;
 }
@@ -205,6 +205,10 @@ body {
   border-radius: 0.9vw;
   color: #4B4B4B;
   transition: all 0.3s ease;
+}
+
+.tablink:hover {
+  background-color: #686868;
 }
 
 .tablink.active {
