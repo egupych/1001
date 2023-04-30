@@ -129,7 +129,8 @@ header {
 .tabs {
   display: flex;
   justify-content: center;
-  background: #EBEBEB
+  background: #EBEBEB;
+  gap: 0.1vw;
 }
 
 .tabcontent {
