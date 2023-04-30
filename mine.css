@@ -165,7 +165,6 @@ body {
   margin-bottom: 5.8vw;
   width: fit-content;
   border-radius: 0.9vw;
-  transition: all 0.3s ease;
 }
 
 .tabcontent {
@@ -187,6 +186,7 @@ body {
   text-align: center;
   border-radius: 0.9vw;
   color: #4B4B4B;
+  transition: all 0.3s ease;
 }
 
 .tablink.active {
