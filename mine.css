@@ -110,6 +110,9 @@
 	color: rgb(20, 20, 20);
   }
 
+.container {
+  background: #F7F7F7;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
