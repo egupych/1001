@@ -113,6 +113,8 @@ body {
   font-family: 'Montserrat', sans-serif;
 	font-size: 1.4vw;
 	/*user-select: none;  Не даёт взаимодействовать с текстом */
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -125,6 +127,10 @@ header {
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Навигация                                        */
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.tabs {
+  display: flex;
+}
 
 .tabcontent {
   display: none;
