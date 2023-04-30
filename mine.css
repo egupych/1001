@@ -111,7 +111,7 @@
   }
 
 .line {
-  border: 2px solid #F5A925;
+  border: 0.02vw solid #F5A925;
   width: 90%;
   margin: 0 auto;
 }
