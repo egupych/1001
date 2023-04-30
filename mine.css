@@ -163,6 +163,7 @@ header {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 10vw;
 }
 
 .grid-item {
@@ -172,11 +173,11 @@ header {
 }
 
 .grid-item img {
-  width: 70%;
+  width: 100%;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  border-radius: 5px;
+  border-radius: 0.5vw;
 }
