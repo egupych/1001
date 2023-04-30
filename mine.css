@@ -140,8 +140,12 @@ header {
   display: block;
 }
 
+.tablink {
+  padding: 1vw 2vw;
+}
+
 .tablink.active {
-  background-color: #2d2d2d;
+  background-color: #ffffff;
 }
 
 .grid-container {
