@@ -227,3 +227,7 @@ body {
 
   color: #212123;
 }
+
+.logo_footer {
+  display: flex;
+}
