@@ -123,6 +123,18 @@ header {
 	position: relative;
 }
 
+.header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #212123;
+}
+
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Навигация                                        */
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
