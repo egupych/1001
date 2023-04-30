@@ -110,6 +110,10 @@
 	color: rgb(20, 20, 20);
   }
 
+.line {
+  border: 2px solid #F5A925;
+}
+
 .container {
   background: #F7F7F7;
   display: flex;
