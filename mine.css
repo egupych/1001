@@ -113,6 +113,7 @@ color: red;
 
 .wallpaper {
   width: 100%;
+  position: relative;
 }
 
 .grand_logo {
