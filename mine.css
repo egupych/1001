@@ -142,12 +142,21 @@ header {
 
 .tablink {
   padding: 0.9vw 1.85vw;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.9vw;
+  color: #4B4B4B;
 }
 
 .tablink.active {
   background-color: #ffffff;
   box-shadow: 0px 0.1vw 0.1vw #CBCBCB;
-  border-radius: 0.9vw;
 }
 
 .grid-container {
