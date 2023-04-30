@@ -111,6 +111,11 @@ color: red;
   color: #212123;
 }
 
+.grand_logo {
+  position: absolute;
+  width: 60%;
+}
+
 .line {
   border: 0.02vw solid #F5A925;
   width: 90%;
