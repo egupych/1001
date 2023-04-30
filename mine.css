@@ -157,10 +157,10 @@ header {
 .grid-item {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .grid-item img {
-  width: 52%;
+  width: 70%;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
