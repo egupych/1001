@@ -114,7 +114,8 @@ body {
 	font-size: 1.4vw;
 	/*user-select: none;  Не даёт взаимодействовать с текстом */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-content: center;
 }
 
 
