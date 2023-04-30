@@ -117,13 +117,11 @@ header {
 
 .wallpaper {
   width: 100%;
-  position: relative;
   z-index: -1;
   margin-bottom: 2vw;
 }
 
 .grand_logo {
-  position: absolute;
   width: 60%;
   z-index: 1;
 }
