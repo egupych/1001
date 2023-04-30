@@ -125,6 +125,7 @@ header {
 .grand_logo {
   position: absolute;
   width: 60%;
+  z-index: 1;
 }
 
 .line {
