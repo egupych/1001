@@ -204,9 +204,6 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4vw;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  margin-bottom: 2vw;
 }
 
 .grid-item {
