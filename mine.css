@@ -232,6 +232,11 @@ body {
   width: 4vw;
 }
 
+.logos_footer {
+  display: flex;
+  flex-direction: column;
+}
+
 .logo_social {
   font-family: 'Montserrat';
   font-style: normal;
