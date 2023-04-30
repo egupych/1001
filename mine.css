@@ -133,6 +133,8 @@ header {
   gap: 0.1vw;
   padding: 0.2vw 0.25vw;
   margin-bottom: 5.8vw;
+  width: fit-content;
+  border-radius: 0.9vw;
 }
 
 .tabcontent {
