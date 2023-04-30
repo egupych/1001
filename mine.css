@@ -231,3 +231,7 @@ body {
 .logo_footer {
   display: flex;
 }
+
+footer {
+  display: flex;
+}
