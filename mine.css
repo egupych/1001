@@ -156,7 +156,11 @@ header {
   align-items: center;
 }
 .grid-item img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 3vw;
+  width: 52%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
 }
