@@ -152,13 +152,14 @@ header {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5vw;
 }
+
 .grid-item {
   display: flex;
   justify-content: center;
   /* align-items: center; */
 }
+
 .grid-item img {
   width: 70%;
   background-size: cover;
