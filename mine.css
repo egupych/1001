@@ -228,10 +228,36 @@ body {
   color: #212123;
 }
 
+.logo_social {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.8979px;
+  line-height: 140%;
+}
+
 .logo_footer {
   display: flex;
   align-items: center;
 }
+
+.authors {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.8979px;
+  line-height: 140%;
+}
+
+
+.authors span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.8979px;
+  line-height: 140%;
+}
+
 
 footer {
   display: flex;
