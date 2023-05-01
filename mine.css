@@ -62,6 +62,7 @@ body {
   background: #F7F7F7;
   font-family: 'Montserrat', sans-serif;
 	font-size: 1.4vw;
+  /*user-select: none;  Не даёт взаимодействовать с текстом */
 }
   
   
@@ -119,6 +120,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  pointer-events: none;
 }
 
 .logo_Newslab {
@@ -152,6 +154,7 @@ header {
 .foam_and_gun {
   width: 100%;
   position: absolute;
+  top: 0;
 }
 
 .line {
@@ -167,16 +170,11 @@ header {
   align-items: center;
 }
 
-body {
-
-	/*user-select: none;  Не даёт взаимодействовать с текстом */
-}
-
-.header span {
+.header_text span {
   opacity: 0;
 }
 
-.header {
+.header_text {
   font-weight: 500;
   font-size: 1.7vw;
   line-height: 130%;
