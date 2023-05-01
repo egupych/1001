@@ -16,4 +16,6 @@ function openTab(tabName, button) {
     button.className += " active";
   }
 
-  
+window.onload = function() {
+  // код для отображения страницы
+}
