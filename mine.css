@@ -283,6 +283,11 @@ header {
   justify-content: center;
 }
 
+.logos_mobile {
+  display: flex;
+  gap: 4vw;
+}
+
 .logo_social {
   cursor: pointer;
 }
