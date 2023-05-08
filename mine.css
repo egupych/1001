@@ -9,6 +9,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;500&display=swap');
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Обнуление                                        */
@@ -63,6 +64,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 	font-size: 1.4vw;
   /*user-select: none;  Не даёт взаимодействовать с текстом */
+}
+
+/*Меняет цвет выделения*/
+::selection {
+  background-color: #F5A925;
+  color: #000000;
 }
   
 input,
@@ -235,30 +242,110 @@ header {
   box-shadow: 0px 0.1vw 0.1vw #CBCBCB;
 }
 
-/* .grid-containers {
-  width: 90%;
+.points_of_growth_body {
   display: flex;
-} */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 4vw;
   flex-direction: column;
-  grid-auto-flow: dense;
+  align-items: center;
 }
 
-.grid-item {
+.egup_card {
+  width: 90vw;
+
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 2vw;
+  padding: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+
+  background: #F7F7FA;
+  border-radius: 15px;
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.12));
 }
 
-.grid-item img {
-  height: 30vw;
-  border-radius: 3.5vw;
+.egup_card:last-child {
+  margin-bottom: 40px;
 }
+
+.egup_img{
+  width: 60vw;
+  height: 34vw;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+}
+
+.egup_card_text{
+  width: 50%;
+  padding: 20px;
+}
+
+.egup_h4{
+  font-family: 'Montserrat Alternates';
+  font-weight: 800;
+  font-size: 3.3vw;
+  line-height: 115%;
+  
+  color: #212123;
+}
+
+.egup_h5 {
+  font-weight: 420;
+  font-size: 1.4vw;
+  line-height: 140%;
+  color: #212123;
+  margin-top: 2vw;
+  margin-bottom: 2.4vw;
+}
+
+.egup_button{
+  padding: 5vw  3vw;
+  text-decoration: none;
+  background-color: #212123;
+  bottom: 4%;
+  right: 2%;
+  position: absolute;
+  color: #FFFFFF;
+border-radius: 100% 10% 10% 10%;
+  transition: background-color 0.2s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+.egup_button:active {
+  transform: scale(0.97);
+ }
+
+.egup_button:hover{
+  background-color: #FF9000;
+}
+
+.egup_button_text,
+.egup_button_text:visited {
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.egup_button_text:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.egup_button_text {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4vw;
+
+color: #FFFFFF;
+text-decoration: none;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
 
 .logo {
   font-style: normal;
