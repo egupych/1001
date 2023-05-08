@@ -433,4 +433,59 @@ footer {
   display: none;
 }
 
+.line {
+  border: 0.02vw solid #F5A925;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 3vw;
+}
+
+
+.footer {
+  width: 90%;
+  align-items: flex-start;
+  font-size: 2.6vw;
+  flex-direction: column;
+
+  gap: 3vw;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 6vw;
+}
+
+
+.logo_social {
+  display: none;
+}
+
+.logos_footer {
+  font-size: 1vw;
+  gap: 4vw;
+  flex-direction: row;
+  margin-left: 4vw;
+  margin-left: 0 auto;
+}
+
+.vk_logo {
+  width: 7vw;
+}
+
+.ok_logo {
+  width: 7vw;
+}
+
+.vk_stroke {
+  display: none;
+}
+
+.ok_stroke {
+  display: none;
+}
+
+.advertising {
+  display: none;
+}
+
 }

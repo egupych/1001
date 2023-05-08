@@ -91,22 +91,24 @@
 <footer>
 
 <div class="footer">
-    <a class="logo" href="https://newslab.ru/">Newslab.ru</a>
+    <div class="logos_mobile">
+        <a class="logo" href="https://newslab.ru/">Newslab.ru</a>
 
-    <div class="logos_footer">
-        <div class="logo_footer_vk">
-          <img class="vk_stroke" src="vk stroke.svg" alt="">
-          <img class="vk_logo" src="vk logo.svg" alt="">
-          <a class="logo_social" href="https://vk.com/newslabru">Вконтакте</a>
-        </div>
+        <div class="logos_footer">
+            <div class="logo_footer_vk">
+              <img class="vk_stroke" src="vk stroke.svg" alt="">
+              <img class="vk_logo" src="vk logo.svg" alt="">
+              <a class="logo_social" href="https://vk.com/newslabru" title="Перейти во Вконтекте">Вконтакте</a>
+            </div>
+            
 
-        <div class="logo_footer_ok">
-          <img class="ok_stroke" src="ok stroke.svg" alt="">
-          <img class="ok_logo" src="ok logo.svg" alt="">
-          <a class="logo_social" href="https://ok.ru/group/52870070403157">Одноклассники</a>
+            <div class="logo_footer_ok">
+              <img class="ok_stroke" src="ok stroke.svg" alt="">
+              <img class="ok_logo" src="ok logo.svg" alt="">
+              <a class="logo_social" href="https://ok.ru/group/52870070403157" title="Перейти в Одноклассники">Одноклассники</a>
+            </div>
         </div>
     </div>
-
     <div class="authors">
     <img class="advertising svg" src="advertising.svg" alt="">
       Чевычелова Наталья Владимировна, <span>ОГРНИП 315246800031064</span><br>
@@ -121,11 +123,10 @@
     </div>
 
 </div>
-
 </footer>
-
-
-
+<div class="line"></div>
+  
+<div class="loader"></div>
 <div id="preloader">
   <div id="loader"></div>
 </div>
@@ -135,6 +136,9 @@
     document.querySelector('#preloader').style.display = 'none';
   });
 </script>
+
+<script src="app.js"></script>
+
 
 </body>
 </html>
