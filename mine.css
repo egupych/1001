@@ -248,6 +248,11 @@ header {
   align-items: center;
 }
 
+.egup-containers {
+  display: flex;
+  flex-direction: column;
+}
+
 .egup_card {
   width: 90vw;
 
