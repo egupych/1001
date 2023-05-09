@@ -268,7 +268,7 @@ header {
 }
 
 .design_decorate {
-  width: 11vw;
+  width: 9vw;
   right: -4%;
   top: -7%;
   position: absolute;
@@ -338,6 +338,10 @@ header {
 .egup_button:hover{
   border: 0.25vw solid #FF9000; /* задаем стиль, толщину и цвет границы */
   padding: 1vw; /* добавляем отступ внутри элемента */
+}
+
+.design_button{
+  width: 7.8vw;
 }
 
 .logo {
