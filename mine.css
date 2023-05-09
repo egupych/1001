@@ -218,6 +218,8 @@ header {
   width: fit-content;
   border-radius: 1.1vw;
     transition: all 0.3s ease;
+    filter: drop-shadow(0vw 10vw 8vw rgba(0, 0, 0, 0.12));
+
 }
 
 .tablink {
@@ -328,7 +330,7 @@ header {
 
   bottom: 7%;
   right: 3.5%;
-
+  transition: background-color 0.5s ease;
 }
 
 .egup_button:active {
