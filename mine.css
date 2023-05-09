@@ -599,8 +599,20 @@ footer {
   margin-bottom: 3vw;
 }
 
+.egup_img{
+  width: 60vw;
+  height: 40w;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 1.8vw;
+}
+
+
 .egup_h5 {
-  font-size: 2vw;
+  font-size: 2.1vw;
 }
 
 .line {
