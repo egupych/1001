@@ -591,6 +591,10 @@ footer {
   box-shadow: 0vw 0.15vw 0.15vw #CBCBCB;
 }
 
+.tablink_all {
+  display: none;
+}
+
 .tabs {
   border-radius: 2vw;
 
