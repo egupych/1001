@@ -219,6 +219,7 @@ header {
   border-radius: 1.1vw;
     transition: all 0.3s ease;
     filter: drop-shadow(0vw 10vw 8vw rgba(0, 0, 0, 0.12));
+    flex-wrap: wrap;
 
 }
 
@@ -233,6 +234,8 @@ header {
   border-radius: 0.9vw;
   color: #4B4B4B;
   transition: all 0.3s ease;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .tablink:hover {
@@ -242,6 +245,10 @@ header {
 .tablink.active {
   background-color: #ffffff;
   box-shadow: 0vw 0.1vw 0.1vw #CBCBCB;
+}
+
+.tablink_all {
+  flex-grow: 1;
 }
 
 .points_of_growth_body {
@@ -591,9 +598,9 @@ footer {
   box-shadow: 0vw 0.15vw 0.15vw #CBCBCB;
 }
 
-.tablink_all {
+/* .tablink_all {
   display: none;
-}
+} */
 
 .tabs {
   border-radius: 2vw;
