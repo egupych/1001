@@ -217,9 +217,9 @@ header {
   margin-bottom: 3vw;
   width: fit-content;
   border-radius: 1.1vw;
-    transition: all 0.3s ease;
-    filter: drop-shadow(0vw 10vw 8vw rgba(0, 0, 0, 0.12));
-    flex-wrap: wrap;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0vw 10vw 8vw rgba(0, 0, 0, 0.12));
+  flex-wrap: wrap;
 
 }
 
