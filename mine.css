@@ -173,7 +173,7 @@ header {
   right: 0.9vw;
   width: 3vw;
   cursor: pointer;
-  transition: background-color 1s ease;
+  transition: all 0.2s ease;
 } 
 
 .rocket:hover {
