@@ -19,3 +19,21 @@ function openTab(tabName, button) {
 window.onload = function() {
 // код для отображения страницы
 }
+
+//::::::::::::::::::::::::::::::::::::::::::::::::::
+//Анимация прокрутки до якоря
+//::::::::::::::::::::::::::::::::::::::::::::::::::
+
+function setScrollIntoView1(top) {
+	const biography = document.querySelector('.rocket_up');
+	biography.scrollIntoView(top);
+}
+
+function setScrollIntoView1Options(top) {
+	const biography = document.querySelector('.rocket_up');
+	biography.scrollIntoView({
+		block: "start",
+		inline: "nearest",
+		behavior: "smooth"
+	});
+}

@@ -120,6 +120,7 @@ color: red;
   color: #212123;
 }
 
+
 header {
   position: relative;
   display: flex;
@@ -165,6 +166,22 @@ header {
   top: 0;
   pointer-events: none;
 }
+
+.rocket {
+  position: fixed;
+  bottom: 1vw;
+  right: 0.9vw;
+  width: 3vw;
+  cursor: pointer;
+  transition: background-color 1s ease;
+} 
+
+.rocket:hover {
+transform: scale(1.05);
+
+} 
+
+
 
 .line {
   border: 0.02vw solid #F5A925;
