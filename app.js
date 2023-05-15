@@ -1,5 +1,8 @@
 //::::::::::::::::::::::::::::::::::::::::::::::::::
-function openTab() {
+//Анимация прокрутки до якоря
+//::::::::::::::::::::::::::::::::::::::::::::::::::
+
+function openTab(tabName, button) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -9,11 +12,10 @@ function openTab() {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  for (i = 0; i < arguments.length; i++) {
-    document.getElementById(arguments[i]).style.display = "flex";
-  }
+  document.getElementById(tabName).style.display = "flex";
+  button.className += " active";
 }
 
 window.onload = function() {
-  // код для отображения страницы
+// код для отображения страницы
 }
