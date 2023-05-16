@@ -548,6 +548,10 @@ footer {
   display: none;
 }
 
+.rocket {
+display: none;
+} 
+
 .logo_Newslab {
   position: absolute;
   top: 11%;
