@@ -235,7 +235,7 @@ transform: scale(1.05);
   width: fit-content;
   border-radius: 1.1vw;
   transition: all 0.3s ease;
-  filter: drop-shadow(0vw 10vw 8vw rgba(0, 0, 0, 0.12));
+  box-shadow: 0vw 10vw 8vw rgba(0, 0, 0, 0.12);
   flex-wrap: wrap;
 
 }
@@ -289,7 +289,7 @@ transform: scale(1.05);
 
   background: #F7F7FA;
   border-radius: 4vw;
-  filter: drop-shadow(0vw 10vw 8vw rgba(0, 0, 0, 0.12));
+  box-shadow: 0vw 15vw 8vw rgba(0, 0, 0, 0.12);
   transition: background-color 0.5s ease;
 }
 
@@ -352,8 +352,8 @@ transform: scale(1.05);
   width: 10vw;
   height: 10vw;
 
-  bottom: 7%;
-  right: 3.5%;
+  bottom: -52%;
+  right: -8.5%;
   transition: background-color 0.5s ease;
 }
 
