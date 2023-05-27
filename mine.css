@@ -615,15 +615,14 @@ display: none;
 .foam_and_gun {
   width: 100%;
   position: absolute;
-  top: 42vw;
+  top: 43vw;
   pointer-events: none;
   animation: foam_and_gun 1.2s linear;
 
 }
-
   
 @keyframes foam_and_gun {
-  0% { transform: translateX(0vw);}
+  0% { transform: translateX(-5vw);}
   100% {  transform: translateX(0vw);}
 }
 
@@ -682,6 +681,17 @@ display: none;
   width: 90%;
   transition: all 0.3s ease;
 }
+
+.egup_card {
+  animation: egup_card 1.2s linear;
+
+}
+  
+@keyframes egup_card {
+  0% { transform: translateX(0vw);}
+  100% {  transform: translateX(0vw);}
+}
+
 
 .egup_img{
   width: 60vw;
