@@ -47,9 +47,9 @@
   <!-- :::::::::::::::::::::::::::::::::::::::::::::::::: -->
 
 
-  <header>
+  <header onclick="setScrollIntoView1Options()">
 
-    <a class="logo_Newslab" href="https://newslab.ru/">Newslab.ru</a>
+    <a class="logo_Newslab">Newslab.ru</a>
     <img class="grand_logo" src="grand_logo.svg">
     <img class="wallpaper" src="Wallpaper.png">
 
@@ -57,14 +57,14 @@
 
 
   <div class="container">
-    <img class="foam_and_gun rocket_up" src="foam and gun.svg">
+    <img class="foam_and_gun" src="foam and gun.svg">
 
     <div class="header_text">Наши партнёры способны выполнять не просто <br> рядовые работы, но и исполнять <br>
       <span>любые</span> желания клиента
       <img class="idea_text" src="idea_text.svg">
     </div>
 
-    <div class="tabs">
+    <div class="tabs rocket_up" onclick="setScrollIntoView1Options()">
       <button class="tablink active" onclick="openTab('tab1', this)">Дизайн</button>
       <button class="tablink active" onclick="openTab('tab2', this)">Отделка</button>
       <button class="tablink active" onclick="openTab('tab3', this)">Строительство</button>
@@ -189,17 +189,6 @@
     <img src="up_button.svg" class="rocket" onclick="setScrollIntoView1Options()" alt="">
 
   </footer>
-
-  <!-- <div class="loader"></div>
-<div id="preloader">
-  <div id="loader"></div>
-</div> -->
-
-  <!-- <script>
-  window.addEventListener('load', function() {
-    document.querySelector('#preloader').style.display = 'none';
-  });
-</script> -->
 
   <script src="app.js"></script>
 
