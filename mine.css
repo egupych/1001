@@ -212,7 +212,7 @@ transform: scale(1.05);
   color: #212123;
   position: relative;
 
-  margin-bottom: 2vw;
+  margin-bottom: 0.5vw;
 }
 
 .idea_text {
@@ -231,8 +231,7 @@ transform: scale(1.05);
   justify-content: center;
   /* background: #EBEBEB; */
   gap: 0.2vw;
-  padding: 0.5vw 0.5vw;
-  margin-bottom: 2.5vw;
+  padding: 2vw 0.5vw;
   width: fit-content;
   border-radius: 1.1vw;
   transition: all 0.3s ease;
@@ -291,7 +290,8 @@ transform: scale(1.05);
   background: #F7F7FA;
   border-radius: 4vw;
 
-  box-shadow: 0vw 2vw 8vw rgba(0, 0, 0, 0.12);
+
+  box-shadow: 0vw 0vw 8vw rgba(0, 0, 0, 0.05);
   transition: background-color 0.5s ease;
 }
 
@@ -596,7 +596,8 @@ display: none;
   font-size: 3vw;
   line-height: 120%;
   margin-bottom: 4vw;
-  margin-top: 3vw;
+  margin-bottom: 0.5vw;
+  padding: 3vw;
 }
 
 .idea_text {
@@ -617,7 +618,7 @@ display: none;
   border-radius: 1.4vw;
   color: #4B4B4B;
   transition: all 0.3s ease;
-  border: #dfdfdf solid 0.01vw;
+  border: #dfdfdf solid 1px;
 }
 
 .tablink.active {
@@ -633,8 +634,7 @@ display: none;
   border-radius: 2vw;
 
   gap: 1.2vw;
-  padding: 1.8vw 1.8vw;
-  margin-bottom: 3vw;
+  padding: 2vw 0.5vw;
   width: 90%;
 }
 
