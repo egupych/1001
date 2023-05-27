@@ -617,6 +617,14 @@ display: none;
   position: absolute;
   top: 42vw;
   pointer-events: none;
+  animation: foam_and_gun 1.2s linear;
+
+}
+
+  
+@keyframes foam_and_gun {
+  0% { transform: translateX(0vw);}
+  100% {  transform: translateX(0vw);}
 }
 
 .grand_logo {
