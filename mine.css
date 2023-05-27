@@ -155,24 +155,33 @@ header {
 }
 
 .grand_logo {
-  width: 40%;
+  width: 47%;
   position: absolute;
-  top: 30%;
+  top: 25%;
   pointer-events: none;
 }
 
 .foam_and_gun {
   width: 100%;
   position: absolute;
-  top: 0;
+  top: 1.5vw;
   pointer-events: none;
+  animation: foam_and_gun 1.2s linear;
+
 }
+
+  
+@keyframes foam_and_gun {
+  0% { transform: translateX(-8vw);}
+  100% {  transform: translateX(0vw);}
+}
+
 
 .rocket {
   position: fixed;
   bottom: 1vw;
-  right: 0.9vw;
-  width: 3vw;
+  right: 0.82vw;
+  width: 3.3vw;
   cursor: pointer;
   transition: all 0.2s ease;
 } 
@@ -212,6 +221,8 @@ transform: scale(1.05);
   color: #212123;
   position: relative;
 
+
+  margin-top: 0.9vw;
   margin-bottom: 0.5vw;
 }
 
@@ -294,6 +305,14 @@ transform: scale(1.05);
 
   box-shadow: 0vw 0vw 8vw rgba(0, 0, 0, 0.05);
   transition: background-color 0.5s ease;
+  animation: egup_card 1s linear;
+
+}
+
+  
+@keyframes egup_card {
+  0% { transform: translateX(-2vw);}
+  100% {  transform: translateX(0vw);}
 }
 
 .design_decorate {
@@ -487,7 +506,8 @@ transform: scale(1.05);
   width: 90%;
   align-items: center;
   font-size: 1vw;
-  margin-bottom: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
   font-weight: 500;
   letter-spacing: -0.01vw;
   z-index: 1;
@@ -529,7 +549,7 @@ footer {
 /* Анимация загрузки                                */
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -554,7 +574,7 @@ footer {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-}
+} */
 
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
