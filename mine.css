@@ -236,6 +236,7 @@ transform: scale(1.05);
   border-radius: 1.1vw;
   transition: all 0.3s ease;
   flex-wrap: wrap;
+  z-index: 1;
 
 }
 
@@ -260,7 +261,7 @@ transform: scale(1.05);
 }
 
 .tablink.active {
-  background-color: #ffffff;
+  background-color: #fdfdfd;
   /* box-shadow: 0vw 0.05vw 0.1vw #CBCBCB; */
 }
 
@@ -287,7 +288,7 @@ transform: scale(1.05);
   margin-bottom: 3vw;
   gap: 3vw;
 
-  background: #ffffff;
+  background: #fdfdfd;
   border-radius: 4vw;
 
 
@@ -476,6 +477,7 @@ transform: scale(1.05);
   margin-bottom: 2vw;
   font-weight: 500;
   letter-spacing: -0.01vw;
+  z-index: 1;
 
 }
 
@@ -622,7 +624,7 @@ display: none;
 }
 
 .tablink.active {
-  background-color: #ffffff;
+  background-color: #fdfdfd;
   /* box-shadow: 0vw 0.15vw 0.15vw #CBCBCB; */
 }
 
