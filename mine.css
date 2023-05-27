@@ -172,7 +172,7 @@ header {
 
   
 @keyframes foam_and_gun {
-  0% { transform: translateX(-8vw);}
+  0% { transform: translateX(-5vw);}
   100% {  transform: translateX(0vw);}
 }
 
