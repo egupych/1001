@@ -610,7 +610,7 @@ display: none;
 }
 
 .tablink {
-  padding: 2.2vw 4vw;
+  padding: 2.2vw 5vw;
   font-style: normal;
   font-weight: 600;
   font-size: 2.5vw;
@@ -625,6 +625,7 @@ display: none;
 
 .tablink.active {
   background-color: #fdfdfd;
+  padding: 2.2vw 5vw;
   /* box-shadow: 0vw 0.15vw 0.15vw #CBCBCB; */
 }
 
