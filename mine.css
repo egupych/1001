@@ -262,7 +262,7 @@ transform: scale(1.05);
 
 .tablink.active {
   background-color: #fdfdfd;
-  /* box-shadow: 0vw 0.05vw 0.1vw #CBCBCB; */
+  padding: 0.7vw 2.5vw;
 }
 
 .tablink_all {
