@@ -301,7 +301,13 @@ transform: scale(1.05);
   right: 0%;
   top: -7%;
   position: absolute;
+  animation: design_decorate 0.2s linear;
 }
+/* 
+@keyframes design_decorate {
+  0% { transform: scale(0.95);}
+  100% { transform: scale(1);}
+} */
 
 .egup_card_text_mobile {
   position: relative;
@@ -320,6 +326,15 @@ transform: scale(1.05);
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 1.8vw;
+
+  animation: egup_img 1s linear;
+
+}
+
+  
+@keyframes egup_img {
+  0% { filter: grayscale(1)}
+  100% { filter: grayscale(0);}
 }
 
 .egup_card_text{
@@ -639,6 +654,7 @@ display: none;
   gap: 1.2vw;
   padding: 2vw 0.5vw;
   width: 90%;
+  transition: all 0.3s ease;
 }
 
 .egup_img{
