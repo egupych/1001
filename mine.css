@@ -229,7 +229,7 @@ transform: scale(1.05);
 .tabs {
   display: flex;
   justify-content: center;
-  background: #EBEBEB;
+  /* background: #EBEBEB; */
   gap: 0.2vw;
   padding: 0.5vw 0.5vw;
   margin-bottom: 2.5vw;
@@ -262,7 +262,7 @@ transform: scale(1.05);
 
 .tablink.active {
   background-color: #ffffff;
-  box-shadow: 0vw 0.05vw 0.1vw #CBCBCB;
+  /* box-shadow: 0vw 0.05vw 0.1vw #CBCBCB; */
 }
 
 .tablink_all {
@@ -622,7 +622,7 @@ display: none;
 
 .tablink.active {
   background-color: #ffffff;
-  box-shadow: 0vw 0.15vw 0.15vw #CBCBCB;
+  /* box-shadow: 0vw 0.15vw 0.15vw #CBCBCB; */
 }
 
 /* .tablink_all {
