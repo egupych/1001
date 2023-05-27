@@ -452,7 +452,6 @@ transform: scale(1.05);
   top: -35%;
   left: -7%;
   opacity: 0;
-  pointer-events: none;
 }
 
 .ok_stroke {
@@ -461,7 +460,6 @@ transform: scale(1.05);
   top: -10%;
   left: -7%;
   opacity: 0;
-  pointer-events: none;
 }
 
 .authors {
