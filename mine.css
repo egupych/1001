@@ -618,7 +618,7 @@ display: none;
   top: 43vw;
   pointer-events: none;
   animation: foam_and_gun 1.2s linear;
-
+  display: none;
 }
   
 @keyframes foam_and_gun {
@@ -784,3 +784,4 @@ display: none;
 }
 
 }
+
