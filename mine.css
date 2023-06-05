@@ -120,6 +120,13 @@ color: red;
   color: #212123;
 }
 
+.egup_ads {
+  position: relative;
+}
+
+.opacity {
+  opacity: 0;
+}
 
 header {
   position: relative;
