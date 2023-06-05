@@ -417,6 +417,52 @@ transform: scale(1.05);
   width: 7.8vw;
 }
 
+.egup_button_mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  
+  background-color: #f5a925;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.egup_button_mobile:active {
+  transform: scale(0.97);
+ }
+
+.egup_button_mobile:hover{
+  background-color: #ff9000;
+}
+
+.egup_button_text,
+.egup_button_text:visited {
+text-decoration: none;
+color: #fff;
+}
+
+.egup_button_text:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.egup_button_mobile {
+  display: none;
+  padding: 2vw 1vw;
+  gap: 1.54vw;
+  border-radius: 7.3vw;
+}
+
+.egup_button_text {
+font-size: 2.3vw;
+}
+
+
 .logo {
   font-style: normal;
   font-weight: 600;
@@ -713,7 +759,7 @@ display: none;
 
 .egup_button {
   background-color: #212123;
-  display: flex;
+  display: none;
   justify-content: center;
   border-radius: 17vw;
   text-align: center;
@@ -730,6 +776,9 @@ display: none;
   padding: 0vw; /* добавляем отступ внутри элемента */
 }
 
+.egup_button_mobile {
+  display: block;
+}
 
 .egup_h5 {
   font-size: 2.1vw;
