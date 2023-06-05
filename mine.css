@@ -702,6 +702,14 @@ display: none;
   width: 12vw;
 }
 
+.design_decorate {
+  width: 12vw;
+  right: 0%;
+  top: -7%;
+  position: absolute;
+  animation: design_decorate 0.2s linear;
+}
+
 .tablink {
   padding: 2.2vw 5vw;
   font-style: normal;
