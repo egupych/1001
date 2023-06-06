@@ -120,6 +120,7 @@ color: red;
   color: #212123;
 }
 
+
 .egup_ads {
   position: relative;
 }
@@ -426,7 +427,7 @@ transform: scale(1.05);
   text-align: center;
   cursor: pointer;
   
-  background-color: #f5a925;
+  background: -webkit-linear-gradient(154deg, #ffb703,#ffb703,#fb5607);background: linear-gradient(154deg, #ffb703,#ffb703,#fb5607);
   color: #fff;
   transition: background-color 0.2s ease;
 }
@@ -436,7 +437,7 @@ transform: scale(1.05);
  }
 
 .egup_button_mobile:hover{
-  background-color: #ff9000;
+  background: -webkit-linear-gradient(154deg, #ffb703,#ffb703,#fb5607);background: linear-gradient(154deg, #ffb703,#ffb703,#fb5607);
 }
 
 .egup_button_text,
