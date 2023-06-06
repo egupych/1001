@@ -652,12 +652,12 @@ display: none;
 
 .logo_Newslab {
   position: absolute;
-  top: 11%;
+  top: 12%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-style: normal;
   font-weight: 600;
-  font-size: 4vw;
+  font-size: 5vw;
   line-height: 120%;
   align-items: center;
   text-align: center;
@@ -810,6 +810,8 @@ display: none;
   align-items: flex-start;
   font-size: 2.6vw;
   flex-direction: column;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
 
   gap: 3vw;
 }
