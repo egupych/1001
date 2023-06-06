@@ -40,3 +40,25 @@ function setScrollIntoView1Options(top) {
 
 
 
+function reloadPage() {
+  location.reload(); // Обновление текущей страницы
+}
+
+
+// Для перехода на ссылки при клике на div
+
+document.getElementById("myDiv1").addEventListener("click", function() {
+  window.location.href = "https://egupych.github.io/1000/";
+});
+document.getElementById("myDiv2").addEventListener("click", function() {
+  window.location.href = "https://egupych.github.io/1000/";
+});
+document.getElementById("myDiv3").addEventListener("click", function() {
+  window.location.href = "https://egupych.github.io/1000/";
+});
+document.getElementById("myDiv4").addEventListener("click", function() {
+  window.location.href = "https://egupych.github.io/1000/";
+});
+document.getElementById("myDiv5").addEventListener("click", function() {
+  window.location.href = "https://egupych.github.io/1000/";
+});

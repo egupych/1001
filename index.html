@@ -47,11 +47,12 @@
   <!-- :::::::::::::::::::::::::::::::::::::::::::::::::: -->
 
 
-  <header onclick="setScrollIntoView1Options()">
+  <header onclick="reloadPage()" alt="Кликните для обновления страницы">
+    
 
-    <a class="logo_Newslab">Newslab.ru</a>
+    <a href="https://newslab.ru/" class="logo_Newslab">Newslab.ru</a>
     <img class="grand_logo" src="grand_logo.svg">
-    <img class="wallpaper" src="Wallpaper.png">
+    <img  class="wallpaper" src="Wallpaper.png">
 
   </header>
 
@@ -69,28 +70,11 @@
       <button class="tablink active" onclick="openTab('tab2', this)">Отделка</button>
       <button class="tablink active" onclick="openTab('tab3', this)">Строительство</button>
       <button class="tablink active" onclick="openTab('tab4', this)">Мебель</button>
-      <a href="https://egupych.github.io/1001/" class="tablink tablink_all active">Все статьи</a>
-    </div>
-
-    
-    <div class="egup-containers tabcontent active" id="tab1">
-      <div class="egup_card egup_box egup_ads">
-        <div class="egup_img" style="background-image: url(torn_edges.png);"></div>
-        <div class="egup_card_text">
-          <div class="egup_card_text_mobile">
-            <img class="design_decorate" src="Реклама.svg" alt="">
-            <div><div class="egup_h4">Заявите <br> о себе <br>с нашей рекламо<span class="opacity">й</span></div>
-            <div class="egup_h5">Привлеките дополнительных<br>клиентов</div></div>
-            <a href="https://newslab.ru/advert/requirements/banners" class="egup_button "><img class="design_button" src="Написать нам.svg" alt=""></a>
-            <a href="https://newslab.ru/advert/requirements/banners" class="egup_button_mobile egup_button_text">Написать нам</a>
-          </div>
-        </div>
-      </div>
     </div>
 
 
     <div class="egup-containers tabcontent active" id="tab1">
-      <div class="egup_card egup_box">
+      <div class="egup_card" id="myDiv1">
         <div class="egup_img" style="background-image: url(d2.jpg);"></div>
         <div class="egup_card_text">
           <div class="egup_card_text_mobile">
@@ -98,11 +82,10 @@
             <div><div class="egup_h4">Творческая спальня-гостиная с намёком на 80-е</div>
             <div class="egup_h5">Пришлось много ломать и решать неожиданные проблемы</div></div>
             <a href="https://egupych.github.io/1000/" class="egup_button "><img class="design_button" src="Открыть статью.svg" alt=""></a>
-            <a href="https://egupych.github.io/1000/" class="egup_button_mobile egup_button_text">Открыть статью</a>
           </div>
         </div>
       </div>
-      <div class="egup_card egup_box">
+      <div class="egup_card" id="myDiv2">
         <div class="egup_img" style="background-image: url(d1.jpg);"></div>
         <div class="egup_card_text">
           <div class="egup_card_text_mobile">
@@ -110,7 +93,6 @@
             <div><div class="egup_h4">Уютная гостиная <br> на 10 м² метрах</div>
             <div class="egup_h5">Рассказ о том, как имея 300 тыс. рублей мы вдвоём преобразили свою гостинную за 10 дней</div></div>
             <a href="https://egupych.github.io/1000/" class="egup_button "><img class="design_button" src="Открыть статью.svg" alt=""></a>
-            <a href="https://egupych.github.io/1000/" class="egup_button_mobile egup_button_text">Открыть статью</a>
           </div>
         </div>
       </div>
@@ -118,7 +100,7 @@
 
 
     <div class="egup-containers tabcontent active" id="tab2">
-      <div class="egup_card egup_box">
+      <div class="egup_card" id="myDiv3">
         <div class="egup_img" style="background-image: url(o1.jpg);"></div>
         <div class="egup_card_text">
           <div class="egup_card_text_mobile">
@@ -126,14 +108,13 @@
             <div><div class="egup_h4">Дёшево <br> и красиво</div>
             <div class="egup_h5">Как мы легко сделали кухню мечты</div></div>
             <a href="https://egupych.github.io/1000/" class="egup_button "><img class="design_button" src="Открыть статью.svg" alt=""></a>
-            <a href="https://egupych.github.io/1000/" class="egup_button_mobile egup_button_text">Открыть статью</a>
           </div>
         </div>
       </div>
     </div>
 
     <div class="egup-containers tabcontent active" id="tab3">
-      <div class="egup_card egup_box">
+      <div class="egup_card" id="myDiv4">
         <div class="egup_img" style="background-image: url(s1.png);"></div>
         <div class="egup_card_text">
           <div class="egup_card_text_mobile">
@@ -141,14 +122,13 @@
             <div><div class="egup_h4">Дом <br> своими <br> руками</div>
             <div class="egup_h5">Как спланировать бюджет и не попасть в просак</div></div>
             <a href="https://egupych.github.io/1000/" class="egup_button "><img class="design_button" src="Открыть статью.svg" alt=""></a>
-            <a href="https://egupych.github.io/1000/" class="egup_button_mobile egup_button_text">Открыть статью</a>
           </div>
         </div>
       </div>
     </div>
 
     <div class="egup-containers tabcontent active" id="tab4">
-      <div class="egup_card egup_box">
+      <div class="egup_card" id="myDiv5">
         <div class="egup_img" style="background-image: url(m1.jpg);"></div>
         <div class="egup_card_text">
           <div class="egup_card_text_mobile">
@@ -156,7 +136,6 @@
             <div><div class="egup_h4">Успеть <br> за 60 часов</div>
             <div class="egup_h5">Где найти материалы и инструкцию</div></div>
             <a href="https://egupych.github.io/1000/" class="egup_button "><img class="design_button" src="Открыть статью.svg" alt=""></a>
-            <a href="https://egupych.github.io/1000/" class="egup_button_mobile egup_button_text">Открыть статью</a>
           </div>
         </div>
       </div>

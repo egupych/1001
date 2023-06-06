@@ -306,16 +306,19 @@ transform: scale(1.05);
   padding: 3vw;
   margin-bottom: 3vw;
   gap: 3vw;
+  cursor: pointer;
 
   background: #fdfdfd;
   border-radius: 4vw;
 
 
   box-shadow: 0vw 0vw 8vw rgba(0, 0, 0, 0.05);
-  transition: background-color 0.5s ease;
+  transition: background-color 2s ease;
   animation: egup_card 1s linear;
-
 }
+
+/* .egup_card:hover {
+} */
 
   
 @keyframes egup_card {
@@ -691,8 +694,7 @@ display: none;
   font-weight: 500;
   font-size: 3vw;
   line-height: 120%;
-  margin-bottom: 4vw;
-  margin-bottom: 0.5vw;
+  margin-top: 2.5vw;
   padding: 3vw;
 }
 
@@ -712,7 +714,7 @@ display: none;
 }
 
 .tablink {
-  padding: 2.2vw 5vw;
+  padding: 3vw 8vw;
   font-style: normal;
   font-weight: 600;
   font-size: 2.5vw;
@@ -727,7 +729,7 @@ display: none;
 
 .tablink.active {
   background-color: #fdfdfd;
-  padding: 2.2vw 5vw;
+  padding: 3vw 8vw;
   /* box-shadow: 0vw 0.15vw 0.15vw #CBCBCB; */
 }
 
@@ -742,6 +744,7 @@ display: none;
   padding: 2vw 0.5vw;
   width: 90%;
   transition: all 0.3s ease;
+  margin-bottom: 4vw;
 }
 
 .egup_card {
