@@ -657,7 +657,7 @@ display: none;
   transform: translate(-50%, -50%);
   font-style: normal;
   font-weight: 600;
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 120%;
   align-items: center;
   text-align: center;
@@ -687,7 +687,7 @@ display: none;
 .grand_logo {
   width: 75%;
   position: absolute;
-  top: 34%;
+  top: 32%;
   pointer-events: none;
 }
 
