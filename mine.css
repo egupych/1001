@@ -685,15 +685,15 @@ display: none;
 }
 
 .grand_logo {
-  width: 70%;
+  width: 75%;
   position: absolute;
-  top: 30%;
+  top: 34%;
   pointer-events: none;
 }
 
 .header_text {
   font-weight: 500;
-  font-size: 3vw;
+  font-size: 3.2vw;
   line-height: 120%;
   margin-top: 2.5vw;
   padding: 3vw;
@@ -702,8 +702,8 @@ display: none;
 .idea_text {
   position: absolute;
   left: 22.5%;
-  top: 56%;
-  width: 12vw;
+  top: 53%;
+  width: 14vw;
 }
 
 .design_decorate {
