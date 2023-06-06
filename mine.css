@@ -750,7 +750,7 @@ display: none;
 
 .egup_card {
   animation: egup_card 1.2s linear;
-
+  margin-bottom: 5vw;
 }
   
 @keyframes egup_card {
