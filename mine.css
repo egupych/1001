@@ -128,7 +128,7 @@ color: red;
 }
 
 .opacity {
-  opacity: 1;
+  opacity: 0;
 }
 
 header {
@@ -219,9 +219,6 @@ transform: scale(1.05);
   margin-bottom: 2vw;
 }
 
-.header_text span {
-  opacity: 0;
-}
 
 .header_text {
   font-weight: 500;
@@ -237,11 +234,25 @@ transform: scale(1.05);
   margin-bottom: 0.5vw;
 }
 
+.header_text span {
+  display: block;
+  opacity: 0;
+  animation: reveal 0.5s forwards var(--d);
+}
+
+@keyframes reveal {
+  from {transform: translateY(20px);}
+  to {opacity: 1; transform: none;}
+}
+
+
 .idea_text {
   position: absolute;
   left: 20%;
   top: 52%;
   width: 7vw;
+  animation: reveal 0.5s forwards var(--d);
+  opacity: 0;
 }
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
