@@ -62,14 +62,14 @@ body {
   overflow-x:hidden;
   background: #F7F7F7;
   font-family: 'Montserrat', sans-serif;
-	font-size: 1.4vw;
+	font-size: 24px;
   /*user-select: none;  Не даёт взаимодействовать с текстом */
 }
 
 /*Меняет цвет выделения*/
 ::selection {
   background-color: #F5A925;
-  color: #000000;
+  color: #212123;
 }
   
 input,
@@ -110,18 +110,10 @@ font-size: inherit;
 font-weight: 400;
 }
 
-.bigred {
-font-size: 2vw;
-color: red;
-}
-
   
 * {
   color: #212123;
 }
-
-
-
 
 .egup_ads {
   position: relative;
@@ -189,9 +181,9 @@ header {
 
 .rocket {
   position: fixed;
-  bottom: 1vw;
-  right: 0.82vw;
-  width: 3.3vw;
+  bottom: 17px;
+  right: 14px;
+  width: 57px;
   cursor: pointer;
   transition: all 0.2s ease;
   display: none;
@@ -199,16 +191,14 @@ header {
 
 .rocket:hover {
 transform: scale(1.05);
-
 } 
 
 
-
 .line {
-  border: 0.02vw solid #F5A925;
-  width: 90%;
+  border: 1px solid #F5A925;
+  width: 1548px;
   margin: 0 auto;
-  margin-bottom: 2vw;
+  margin-bottom: 34px;
 }
 
 .container {
@@ -216,13 +206,13 @@ transform: scale(1.05);
   flex-direction: column;
   align-items: center;
 
-  margin-bottom: 2vw;
+  margin-bottom: 34px;
 }
 
 
 .header_text {
   font-weight: 500;
-  font-size: 1.5vw;
+  font-size: 25px;
   line-height: 130%;
   align-items: center;
   text-align: center;
@@ -230,8 +220,8 @@ transform: scale(1.05);
   position: relative;
 
 
-  margin-top: 0.9vw;
-  margin-bottom: 0.5vw;
+  margin-top: 15px;
+  margin-bottom: 9px;
 }
 
 .header_text span {
@@ -250,7 +240,7 @@ transform: scale(1.05);
   position: absolute;
   left: 20%;
   top: 52%;
-  width: 7vw;
+  width: 120px;
   animation: reveal 0.5s forwards var(--d);
   opacity: 0;
 }
@@ -263,10 +253,10 @@ transform: scale(1.05);
   display: flex;
   justify-content: center;
   /* background: #EBEBEB; */
-  gap: 0.2vw;
-  padding: 2vw 0.5vw;
+  gap: 4px;
+  padding: 34px 9px;
   width: fit-content;
-  border-radius: 1.1vw;
+  border-radius: 19px;
   transition: all 0.3s ease;
   flex-wrap: wrap;
   z-index: 1;
@@ -274,19 +264,19 @@ transform: scale(1.05);
 }
 
 .tablink {
-  padding: 0.7vw 1.6vw;
+  padding: 12px 27px;
   font-style: normal;
   font-weight: 600;
-  font-size: 1vw;
+  font-size: 17px;
   display: flex;
   align-items: center;
   text-align: center;
-  border-radius: 0.9vw;
+  border-radius: 15px;
   color: #4B4B4B;
   transition: all 0.3s ease;
   flex-grow: 1;
   justify-content: center;
-  border: #d5d5d5 solid 0.01vw;
+  border: #d5d5d5 solid 1px;
 }
 
 .tablink:hover {
@@ -295,7 +285,7 @@ transform: scale(1.05);
 
 .tablink.active {
   background-color: #fdfdfd;
-  padding: 0.7vw 2.5vw;
+  padding: 12px 43px;
 }
 
 .tablink_all {
@@ -314,44 +304,35 @@ transform: scale(1.05);
 }
 
 .egup_card {
-  width: 90vw;
+  width: 1548px;
 
   display: flex;
-  padding: 3vw;
-  margin-bottom: 3vw;
-  gap: 3vw;
+  padding: 51px;
+  margin-bottom: 51px;
+  gap: 51px;
   cursor: pointer;
 
   background: #fdfdfd;
-  border-radius: 4vw;
+  border-radius: 69px;
 
 
-  box-shadow: 0vw 0vw 8vw rgba(0, 0, 0, 0.05);
+  box-shadow: 0vw 0vw 137px rgba(0, 0, 0, 0.05);
   transition: background-color 2s ease;
   animation: egup_card 1s linear;
 }
 
-/* .egup_card:hover {
-} */
-
-  
 @keyframes egup_card {
-  0% { transform: translateX(-2vw);}
-  100% {  transform: translateX(0vw);}
+  0% { transform: translateX(-34px);}
+  100% {  transform: translateX(0);}
 }
 
 .design_decorate {
-  width: 9vw;
+  width: 155px;
   right: 0%;
   top: -7%;
   position: absolute;
   animation: design_decorate 0.2s linear;
 }
-/* 
-@keyframes design_decorate {
-  0% { transform: scale(0.95);}
-  100% { transform: scale(1);}
-} */
 
 .egup_card_text_mobile {
   position: relative;
@@ -362,14 +343,14 @@ transform: scale(1.05);
 }
 
 .egup_img{
-  width: 60vw;
-  min-height: 34vw;
+  width: 1032px;
+  min-height: 585px;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  border-radius: 1.8vw;
+  border-radius: 30px;
 
   animation: egup_img 1s linear;
 
@@ -383,14 +364,14 @@ transform: scale(1.05);
 
 .egup_card_text{
   width: 50%;
-  padding: 2vw 0vw 0vw 2vw;
+  padding: 34px 0 0 34px;
 
 }
 
 .egup_h4{
   font-family: 'Montserrat Alternates';
   font-weight: 800;
-  font-size: 3.3vw;
+  font-size: 56px;
   line-height: 115%;
   
   color: #212123;
@@ -398,11 +379,11 @@ transform: scale(1.05);
 
 .egup_h5 {
   font-weight: 420;
-  font-size: 1.5vw;
+  font-size: 25px;
   line-height: 140%;
   color: #212123;
-  margin-top: 2vw;
-  margin-bottom: 2.4vw;
+  margin-top: 35px;
+  margin-bottom: 40px;
 }
 
 .egup_button{
@@ -411,11 +392,11 @@ transform: scale(1.05);
   display: flex;
   justify-content: center;
 
-  border-radius: 16vw 2vw 4vw 2vw;
+  border-radius: 275px 35px 70px 35px;
   text-align: center;
   cursor: pointer;
-  width: 10vw;
-  height: 10vw;
+  width: 170px;
+  height: 170px;
   align-self: flex-end;
 
   transition: background-color 0.5s ease;
@@ -426,36 +407,15 @@ transform: scale(1.05);
   transform: scale(0.97);
  }
 
-.egup_button:hover{
-  border: 0.25vw solid #FF9000; /* задаем стиль, толщину и цвет границы */
-  padding: 1vw; /* добавляем отступ внутри элемента */
+.egup_button:hover {
+  border: 4px solid #FF9000; /* задаем стиль, толщину и цвет границы */
+  padding: 17px; /* добавляем отступ внутри элемента */
 }
 
 .design_button{
-  width: 7.8vw;
+  width: 135px;
 }
 
-.egup_button_mobile {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  text-align: center;
-  cursor: pointer;
-  
-  background: -webkit-linear-gradient(154deg, #ffb703,#ffb703,#fb5607);background: linear-gradient(154deg, #ffb703,#ffb703,#fb5607);
-  color: #fff;
-  transition: background-color 0.2s ease;
-}
-
-.egup_button_mobile:active {
-  transform: scale(0.97);
- }
-
-.egup_button_mobile:hover{
-  background: -webkit-linear-gradient(154deg, #ffb703,#ffb703,#fb5607);background: linear-gradient(154deg, #ffb703,#ffb703,#fb5607);
-}
 
 .egup_button_text,
 .egup_button_text:visited {
@@ -468,34 +428,25 @@ color: #fff;
   color: #fff;
 }
 
-
-.egup_button_mobile {
-  display: none;
-  padding: 2vw 1vw;
-  gap: 1.54vw;
-  border-radius: 2vw;
-}
-
 .egup_button_text {
-font-size: 2.3vw;
+font-size: 40px;
 }
-
 
 .logo {
   font-style: normal;
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 35px;
 
   color: #212123;
   cursor: pointer;
 }
 
 .vk_logo {
-  width: 2.2vw;
+  width: 38px;
 }
 
 .ok_logo {
-  width: 2.2vw;
+  width: 38px;
 }
 
 .logos_footer {
@@ -506,7 +457,7 @@ font-size: 2.3vw;
 
 .logos_mobile {
   display: flex;
-  gap: 4vw;
+  gap: 70px;
 }
 
 .logo_social {
@@ -538,7 +489,7 @@ font-size: 2.3vw;
 
 .vk_stroke {
   position: absolute;
-  width: 3.4vw;
+  width: 60px;
   top: -35%;
   left: -7%;
   opacity: 0;
@@ -546,7 +497,7 @@ font-size: 2.3vw;
 
 .ok_stroke {
   position: absolute;
-  width: 3vw;
+  width: 50px;
   top: -10%;
   left: -7%;
   opacity: 0;
@@ -559,7 +510,7 @@ font-size: 2.3vw;
 
 .advertising {
   position: absolute;
-  width: 16vw;
+  width: 275px;
   top: -67%;
   left: -10%;
   opacity: 0;
@@ -574,13 +525,13 @@ font-size: 2.3vw;
 .footer {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 1548px;
   align-items: center;
-  font-size: 1vw;
-  margin-top: 1vw;
-  margin-bottom: 3vw;
+  font-size: 17px;
+  margin-top: 17px;
+  margin-bottom: 50px;
   font-weight: 500;
-  letter-spacing: -0.01vw;
+  letter-spacing: -1px;
   z-index: 1;
 
 }
@@ -601,7 +552,7 @@ footer {
 
 
 ::-webkit-scrollbar {
-  width: 0.5vw; /* Ширина скроллбара */
+  width: 10px; /* Ширина скроллбара */
   background-color: transparent; 
   transition: all 0.3s ease;
 }
@@ -616,37 +567,184 @@ footer {
   background-color: #F5A925; /* Цвет полосы прокрутки при наведении */
 }
 
+
+@media screen  and (max-width: 1400px) {
+
+body {
+	font-size: 1.4vw;
+}
+
+
+
+.rocket {
+  bottom: 1vw;
+  right: 0.82vw;
+  width: 3.3vw;
+} 
+
+
+
+.line {
+  border: 0.02vw solid #F5A925;
+  width: 90%;
+  margin-bottom: 2vw;
+}
+
+.container {
+  margin-bottom: 2vw;
+}
+
+
+.header_text {
+  font-size: 1.5vw;
+  margin-top: 0.9vw;
+  margin-bottom: 0.5vw;
+}
+
+@keyframes reveal {
+  from {transform: translateY(1.4vw);}
+  to {opacity: 1; transform: none;}
+}
+
+
+.idea_text {
+  width: 7vw;
+}
+
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
-/* Анимация загрузки                                */
+/* Навигация                                        */
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
-/* #preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+.tabs {
+  gap: 0.2vw;
+  padding: 2vw 0.5vw;
+  border-radius: 1.1vw;
+}
+
+.tablink {
+  padding: 0.7vw 1.6vw;
+  font-size: 1vw;
+  border-radius: 0.9vw;
+  border: #d5d5d5 solid 0.01vw;
+}
+
+
+.tablink.active {
+  padding: 0.7vw 2.5vw;
+}
+
+
+.egup_card {
+  width: 90vw;
+  padding: 3vw;
+  margin-bottom: 3vw;
+  gap: 3vw;
+  border-radius: 4vw;
+
+
+  box-shadow: 0vw 0vw 8vw rgba(0, 0, 0, 0.05);
+}
+
+  
+@keyframes egup_card {
+  0% { transform: translateX(-2vw);}
+  100% {  transform: translateX(0vw);}
+}
+
+.design_decorate {
+  width: 9vw;
+}
+
+.egup_card_text_mobile {
   height: 100%;
-  background-color: #F7F7F7;
-  z-index: 9999;
 }
 
-#loader {
-  border: 0.3vw solid #F7F7F7;
-  border-top: 0.3vw solid #F5A925;
-  border-radius: 100%;
+.egup_img{
+  width: 60vw;
+  min-height: 34vw;
+  border-radius: 1.8vw;
+}
+
+
+.egup_card_text{
+  width: 50%;
+  padding: 2vw 0vw 0vw 2vw;
+}
+
+.egup_h4{
+  font-size: 3.3vw;
+}
+
+.egup_h5 {
+  font-size: 1.5vw;
+  margin-top: 2vw;
+  margin-bottom: 2.4vw;
+}
+
+.egup_button{
+  border-radius: 16vw 2vw 4vw 2vw;
+  width: 10vw;
+  height: 10vw;
+}
+
+.egup_button:hover{
+  border: 0.25vw solid #FF9000; /* задаем стиль, толщину и цвет границы */
+  padding: 1vw; /* добавляем отступ внутри элемента */
+}
+
+.design_button{
+  width: 7.8vw;
+}
+
+.egup_button_text {
+font-size: 2.3vw;
+}
+
+
+.logo {
+  font-weight: 600;
+}
+
+.vk_logo {
+  width: 2.2vw;
+}
+
+.ok_logo {
+  width: 2.2vw;
+}
+
+.logos_mobile {
+  gap: 4vw;
+}
+
+
+
+.vk_stroke {
+  width: 3.4vw;
+}
+
+.ok_stroke {
   width: 3vw;
-  height: 3vw;
-  animation: spin 2s linear infinite;
-  position: absolute;
-  left: 50%;
-  top: 50%;
 }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-} */
+.advertising {
+  width: 16vw;
+}
 
+
+.footer {
+  width: 90%;
+  font-size: 1vw;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+  letter-spacing: -0.01vw;
+}
+
+
+::-webkit-scrollbar {
+  width: 0.5vw; /* Ширина скроллбара */
+}
+}
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Адаптив                                          */
@@ -802,9 +900,6 @@ display: none;
   padding: 0vw; /* добавляем отступ внутри элемента */
 }
 
-.egup_button_mobile {
-  display: block;
-}
 
 .egup_h5 {
   font-size: 2.25vw;
