@@ -160,9 +160,6 @@ header {
   pointer-events: none;
 }
 
-.parallax-one {overflow: hidden; display: block;
-  position: relative; width: 100%; background: linear-gradient(rgba(20, 20, 20, 0.95), rgba(20,20,20,0.95)), url(https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=100); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-
 
 .foam_and_gun {
   width: 100%;
