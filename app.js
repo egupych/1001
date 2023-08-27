@@ -48,19 +48,19 @@ function reloadPage() {
 // Для перехода на ссылки при клике на div
 
 document.getElementById("myDiv1").addEventListener("click", function() {
-  window.location.href = "https://egupych.github.io/1000/";
+  window.location.href = "https://egupych.github.io/1002/";
 });
 document.getElementById("myDiv2").addEventListener("click", function() {
-  window.location.href = "https://egupych.github.io/1000/";
+  window.location.href = "https://egupych.github.io/1003/";
 });
 document.getElementById("myDiv3").addEventListener("click", function() {
-  window.location.href = "https://egupych.github.io/1000/";
+  window.location.href = "https://egupych.github.io/1004/";
 });
 document.getElementById("myDiv4").addEventListener("click", function() {
-  window.location.href = "https://egupych.github.io/1000/";
+  window.location.href = "https://egupych.github.io/1005/";
 });
 document.getElementById("myDiv5").addEventListener("click", function() {
-  window.location.href = "https://egupych.github.io/1000/";
+  window.location.href = "https://egupych.github.io/1006/";
 });
 
 
