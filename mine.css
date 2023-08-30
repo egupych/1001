@@ -509,17 +509,9 @@ font-size: 40px;
   position: relative;
 }
 
-.advertising {
-  position: absolute;
-  width: 275px;
-  top: -67%;
-  left: -10%;
-  opacity: 0;
-  pointer-events: none;
-}
 
 .authors span {
-  line-height: 140%;
+color: #7d7d7d;
 }
 
 
@@ -527,7 +519,7 @@ font-size: 40px;
   display: flex;
   justify-content: space-between;
   width: 1548px;
-  align-items: center;
+  align-items: flex-start;
   font-size: 17px;
   margin-top: 17px;
   margin-bottom: 50px;
@@ -535,11 +527,6 @@ font-size: 40px;
 
   z-index: 1;
 
-}
-
-.authors:hover .advertising {
-  opacity: 1;
-  transition: all 0.5s ease;
 }
 
 footer {
@@ -729,11 +716,6 @@ font-size: 2.3vw;
   width: 3vw;
 }
 
-.advertising {
-  width: 16vw;
-}
-
-
 .footer {
   width: 90%;
   font-size: 1vw;
@@ -917,7 +899,6 @@ display: none;
 
 .footer {
   width: 90%;
-  align-items: flex-start;
   font-size: 2.6vw;
   flex-direction: column;
   margin-top: 2vw;
